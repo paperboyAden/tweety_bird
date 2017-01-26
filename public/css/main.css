@@ -7,11 +7,12 @@
   text-decoration: none;
   color: black;
   padding: 10px;
+  margin-top: 15px;
 }
 
 .button:hover {
-  background-color: white;
   color: green;
+  opacity: 1;
 }
 
 .pull-right{
@@ -22,4 +23,33 @@
 
 .button-green{
   background-color: green;
+}
+
+.button-white {
+  background-color: white;
+}
+
+.button-see-thru{
+  opacity: 0.5;
+}
+.headline {
+  background-color: green;
+  width: 100%;
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+/*This will select every .headline and every h1 on the page*/
+.headline,h1{}
+  /*This will select only h1s contained in .headlines*/
+.headline h1{
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  font-weight: 400;
+  padding: 80px 0;
+  margin: 0;
+  font-family: sans-serif;
 }
